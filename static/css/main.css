@@ -1,0 +1,83 @@
+.navbar{
+    display: inline;
+}
+.nav-section{
+    background: #027368;
+    height: 3rem;
+    
+    
+}
+
+.nav-section h3{
+    color: azure;
+    line-height: 3rem;
+}
+.nav-section ul{
+    margin: 0;
+    margin-top: -3.3rem;
+    padding: 0;
+    float: right;
+    margin-top: -2;
+
+}
+.nav-section ul li{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.nav-section ul li a{
+    margin: 0;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: aliceblue;
+    
+}
+.nav-section ul li a:hover{
+    background-color: rgba(240, 248, 255, 0.329);
+    transition-duration: .5s;
+}
+
+.login{
+    padding: 5rem;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.login form{
+    justify-content: center;
+}
+.login form input{
+    justify-content: center;
+    padding: 10px;
+    display: block;
+
+
+}
+.submit{
+    background-color: #027368;
+}
+input[type=email],input[type=password]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #4f4f4f;
+    font-size: 16px;
+    border-radius: 5px;
+}
+input[type=submit]{
+    border-radius: 20px;
+    width: 100%;
+}
+
+input[type=button]{
+    background-color: #027368;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.container{
+    align-items: center;
+}
